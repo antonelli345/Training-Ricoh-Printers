@@ -84,3 +84,64 @@
 - Após restauração alguns aplicativos como os de interface rápida serão instalados novamente contudo alguns deverão ser instalados via TF Card ou eDCi
     - TF Card(Cartão de memória)
     - eDCi(Servidor da fabricante fornecendo ProductKey) 
+<p>
+
+*** 
+
+<h4> Aula 05(Conexão 1):
+<p>
+
+- Configuração de tela e dispositivo(App UserTools)
+
+   - 1. User Tools
+   - 2. Screen Features
+   - 3. Screen Device Settings
+   - 4. User's Own Customization
+   - 5. Change the option to "Allow"
+   - Possibilita o usuário personalizar sua tela inicial
+
+-  Scan to Folder Helper possibilita escanamento com dispositivos que tiverem ao menos uma pasta compartilhada
+-  Scan to Me deve estar com User Authetication habilitada
+-  Overview:
+<p>
+
+<img src="./img/image5.png">
+
+<p>
+
+- Web Browser salva páginas em pdf(Overview):
+
+<p>
+<img src="./img/image6.png">
+
+- Smart Operation Panel v2 tem autenticação por nfc(necessário habilitar leitor após instalação)
+
+   - User Tools
+
+   - Screen Features
+
+   - Screen Device Settings
+
+   - IC Card Software Settings
+
+   - Select IC Card Reader
+
+      - Proximity Card Reader
+
+   - Proximity Card Reader Settings   
+      - Enable checkbox Auth.
+
+-  Quick Card Authethtication 
+   - Use Authetication
+   
+   - Reboot the machine
+
+- Overview de cartões compatíveis com o dispositivo
+
+<p>
+<img src="./img/image7.png">
+
+- Smart Device Connector (App to mobile devices printing)
+      
+   - Posibilidade de autenticação por QR Code
+
