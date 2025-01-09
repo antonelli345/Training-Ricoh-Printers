@@ -67,7 +67,7 @@
     5. Painel LCD
    - Após substituição dos itens do painel de operação verificar ações para cada item
    <p>
-   <img src="./img/Captura de ecrã 2025-01-03 095122.png">
+   <img src="./img/image1.png">
 
 - Recovery Mode / Modo de recuperação
    - Para atualização do firmware do painel entrar no modo Especial Recovery
@@ -145,3 +145,69 @@
       
    - Posibilidade de autenticação por QR Code
 
+*** 
+
+<h4> Aula 06(Conexão 2):
+<p>
+
+- Conexão LAN através do Controlador GW
+
+- Conexão LAN sem fio através do Smart Operation Panel v2
+
+   - Conexão entre Smart Operation Panel v2 e dispositivo é criptografado usando WPA-PSK ou WPA2-PSK
+
+   - Não é possível que os clientes se comuniquem entre diretamente um com o outro
+
+   - Possibilidade de configuração do Wi-Fi Direct no Smart Operation Panel
+
+      - Screen Features
+
+      - Enable option "Screen Direct Connection Settings"
+
+      - Enable the checkbox Direct Connection: Group Owner Mode
+         - Quando habilitado comunicação Wi-Fi é automaticamente desligada
+
+      - Após isso realizar conexão no dispositivo cliente 
+
+   - Port Forwarding Overview:
+<p>
+<img src="./img/image8.png">
+
+<p>
+
+- SmartSDK permite que desenvolvedores desenvolvam 3 tipos de aplicativos
+   
+   - Aplicação Remota
+   
+   - Aplicativo Web
+   
+   - Aplicativo para Smart Operation Panel
+
+- SmartSDK Suporta os seguintes modos de operação
+
+   - Modo Nativo
+
+   - Modo Híbrido
+
+   - Modo de compatibilidade
+
+- Importar e exportar configurações pela Web
+
+   - Digite o IP do dispositivo no navegador web do seu computador
+
+   - Clicar em login e logar com as seguintes credenciais(para primeiro acesso)
+
+      - Login: admin
+      - Pass: 
+
+   - Gerenciamento de dispositivos
+
+      - Configuração
+      
+      - Selecionar Import/Export
+        
+        - Run export - Download
+        
+        - Run import - Download
+
+   
