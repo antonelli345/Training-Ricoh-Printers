@@ -198,6 +198,7 @@
    - Clicar em login e logar com as seguintes credenciais(para primeiro acesso)
 
       - Login: admin
+
       - Pass: 
 
    - Gerenciamento de dispositivos
@@ -210,4 +211,139 @@
         
         - Run import - Download
 
+- Security
+
+   - Caso vulnerabilidade for encontrada no Android 4.2 a Ricoh disponibilizará um patch de atualização
+
+   - Para interfaces físicas tais como abaixo o administrador pode desabilitar interfaces individuais
+      - Slot de armazenamento USB
+      - Host USB tipo A
+      - Slot NFC
+      - Slot HDMI
+      - Slot para cartão SD
+
+   - Para Rede sem fio(Wireless LAN)
+      
+      - O administrador pode habilitar ou desabilitar o serviço de servidor, com isso é possível desabilitar o acesso externo
+
+   - Para Navegador Web(Browser)
+      
+      - O administrador pode bloquear downloads e instalações de aplicativos vindas pelo navegador
+
+   - Para pontenciais malwares e vírus
+
+      - O administrador pode bloquear instalação de aplicativos que não tenham assinatura exclusiva da Ricoh
+
+- Recovery Mode
    
+   - Screen Devices
+   - Screen Startup Mode
+      - Verificar que a opção normal está selecionada
+   - Remover tampa lateral
+   <p>
+
+   <img src="./img/image9.png">
+
+   <p>
+
+   - O dispositivo será inicializado em modo de recuperação
+   
+      - Por meio desta tela serão possíveis as seguintes operações
+     
+     <p>
+   <img src="./img/image10.png">
+
+      - A opção *Wipe data / factory reset* realizará a restauração de fábrica
+
+- Factory Reset 
+   <p>
+   
+   - <h3>Quando fazer uma redefinição de fábrica
+   <p>      
+   
+   <img src="./img/image11.png">
+   
+   <p>
+   
+   -  <h3>Recuperando-se após uma redefinição de fábrica
+   <p>
+   
+   <img src="./img/image12.png">
+   
+   <p>
+   
+   -  <h3>Considerações 
+   <p>
+      
+   <img src="./img/image13.png">
+   
+   <p>
+
+- Instalando aplicativos
+
+   - Permite instalações pelo wget
+
+   <img src="./img/image14.png">
+   <p>
+
+
+
+<h4>Instalação remota
+<p>
+
+- Criar pasta C:\remote_control
+
+   - Colocar remote_install_machines.csv
+
+   - Colocar .apk
+
+   - Colocar C:\remote_control.bat
+
+
+ Abrir Command Line 
+
+    1. C:
+
+    2. cd \
+
+    3. cd remote_control
+
+    4. cheetah_remote_install.bat SimpleScan.apk
+
+<p>
+
+<h4>Instalação por SD Card
+<p>
+
+- Criar pasta app
+
+   - Colocar PatternLock.apk
+
+   - Colocar PatternLock.dalp
+
+   - Colocar pasta app no SD Card
+   
+- Inserir SD Card na impressora
+
+   - Screen Features
+   
+   - Aplications
+
+   - Install 
+
+      - Install from de SD Card
+
+   - Select the app
+
+      - Install
+
+   - Press Panel restart for the reboot of smart operation panel
+
+   - Press Aplication List for view if application has installed 
+
+- Troubleshooting
+<p>
+
+<img src= "./img/image15.png">
+
+<p>
