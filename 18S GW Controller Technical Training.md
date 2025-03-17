@@ -150,6 +150,88 @@
 - Este controlador 18S permite selecionar o bandwidth(2.4GHz ou 5GHz)
    -  Para alterar o bandwidth usar Telnet
 
-   
+
+<p>
+
+<h4>AULA 03(Security):
+<p>
+
+-  Controle de acesso
+
+-  Restrição de funções de aplicativos
+
+-  Configurações de exibição do aplicativo
+
+-  Desativação de interfaces externas
+
+-  Login Supervisor
+
+-  Relatório de Apagamento de memória(Erase Memory)
+
+<p>
+
+<h4>A função de controle de acesso restrige o acesso por meio de um intervalo de IPs.
+
+<p>Os seguintes intens protocolos / itens são bloqueados por esta função: 
+
+-  LPD
+
+-  RCP/RSH
+
+-  FTP
+
+-  DIPRINT
+
+-  IPP
+
+-  Bonjour
+
+-  SMB
+
+-  HTTP & HTTPS
+
+-  WS-MFP (WS-Device, WS-Printer , WS-Scanner)
+
+-  IPDS
+
+-  RHPP
+
+-  SNMP(Novo para 18S)
+
+-  Telnet(Novo para 18S)
+
+-  NBT(Novo para 18S)
+
+<p> A proteção por intervalo de IP usa telnet ou WIM protegendo de mecanismo de buscas como o SHODAN em uma pesquisa por dispositivos vulneráveis abertos ao público
+
+-  No controlador 18S é possível restringir as funções disponíveis dentro de cada aplicativo, tais como imprimir unicamente em B&W em uma impressora color e escanear documento com determinados parâmetros
+
+- Possibilidade de ocultar ou não determinada funcionalidade, deixando determinadas sem acesso a determinadas funcionalidades, este recurso pode ser ativado via WIM ou SOP
+
+- Possível desativar Wi-Fi, Wireless Direct, Bluetooth, Screen SD Card Slot, Screen USB Memory Slot
+
+
+<h4>Advanced Secutiry
+
+-  Conjuntos de Criptografia
+
+-  Configurações SSL/TLS
+
+-  Conformidade RFC6056
+
+-  Autenticação Kerberos
+
+<img src="./img/image20.png">
+
+-  Os protocolos criptográficos abaixo estão sendo desativados por omissão:
+
+   -  TLS1.0
+   -  SSL 3.0
+   -  3DES
+
+
+<img src="./img/image21.png">
+
+
 
 
